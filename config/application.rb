@@ -27,5 +27,17 @@ module Stickit
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    # Raises an error on unpermitted attributes assignment
+    config.action_controller.action_on_unpermitted_parameters = :raise
+
+    config.generators do |generate|
+      generate.helper false
+      generate.javascript_engine false
+      generate.request_specs false
+      generate.routing_specs false
+      generate.stylesheets false
+      generate.test_framework :rspec
+      generate.view_specs false
+    end
   end
 end
