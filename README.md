@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Application dependencies:
 
-Things you may want to cover:
+* Ruby version: 2.4.1
+* RSpec 3.7
+* PostgreSQL 10.1
 
-* Ruby version
+<!-- System dependencies: -->
 
-* System dependencies
+<!-- * Configuration
+ -->
+<!-- * Database creation
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
+* Database initialization -->
+<!--
 * How to run the test suite
 
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
 
-* ...
+* ... -->
