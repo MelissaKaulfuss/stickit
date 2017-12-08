@@ -1,4 +1,5 @@
-# README
+# stickit.tech
+--------------
 
 Application dependencies:
 
