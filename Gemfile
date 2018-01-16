@@ -25,7 +25,6 @@ group :development do
 end
 
 group :test do
-#  gem "capybara-webkit"
   gem "capybara-selenium"
   gem "chromedriver-helper"
   gem "database_cleaner"

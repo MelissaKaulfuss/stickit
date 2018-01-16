@@ -1,0 +1,70 @@
+5d9f8da8c6611c591813a57417edff4bcaf9bc24		branch 'aliismayilov-with-value-message' of https://github.com/thoughtbot/shoulda-matchers
+01e64cb2f67c0fc9f0b03b5e1b975caf4438cdf6		branch 'allow_nil_allow_blank-remove-param' of https://github.com/thoughtbot/shoulda-matchers
+1b0ccac8d6bf9cb6b316ef1e257ca66625a4c4df		branch 'dependent_matcher_improvements' of https://github.com/thoughtbot/shoulda-matchers
+91d9871851988e28f2e5a7ced5b4d9e8652c5225		branch 'emw-have-submatchers-take-required-attribute-argument' of https://github.com/thoughtbot/shoulda-matchers
+830b38cc950766c3b596998aff4046a9dd6446bd		branch 'ew-add-cast-with-to-validation-matcher' of https://github.com/thoughtbot/shoulda-matchers
+7f6a0849e3ae63e70a3a5fa50a41f5422f3fa517		branch 'ew-add-more-checks-to-configuration' of https://github.com/thoughtbot/shoulda-matchers
+4028c41e87da74ba1eb347c555f3a1847d806239		branch 'ew-allow-values-alias' of https://github.com/thoughtbot/shoulda-matchers
+9268b4940fb71718654376de5de7375c11c4b051		branch 'ew-change-flash-now' of https://github.com/thoughtbot/shoulda-matchers
+ac62982a6b698564c05eee1da5891fa5fcc8ffb0		branch 'ew-fix-ensure-inclusion-of' of https://github.com/thoughtbot/shoulda-matchers
+2d12faa9c5eef22ae6b31e86506151753cdeed79		branch 'ew-fix-integration-with-spring' of https://github.com/thoughtbot/shoulda-matchers
+216296544568f63d0237c728053b7b76fa79d4d9		branch 'ew-fix-namespaced-class-name' of https://github.com/thoughtbot/shoulda-matchers
+5cb33b9df8290ae648a9506f6ec499be34259184		branch 'ew-issue-814' of https://github.com/thoughtbot/shoulda-matchers
+33d459b5ca41466707c5eedad42ff0ca44ce9726		branch 'ew-remove-minitest-4' of https://github.com/thoughtbot/shoulda-matchers
+b033cd2de238f15c630ee4328035139e032e5fbe		branch 'ew-rename-ensure-inclusion-of' of https://github.com/thoughtbot/shoulda-matchers
+bc761ff19373adfe23c70245ffe78f33ba53ea03		branch 'ew-update-contributing' of https://github.com/thoughtbot/shoulda-matchers
+6ebcce6ce0c15c99f11c3b22da234345177b1bf0		branch 'ew-vno-contexts' of https://github.com/thoughtbot/shoulda-matchers
+1a3ee831c5404f7d4f8b09c635cda4580f1b6e0c		branch 'gbw-compositing' of https://github.com/thoughtbot/shoulda-matchers
+cb46e2cd38fb21f4860c769d729e1a80f161345d		branch 'gbw-extract-class-for-ranges-and-arrays' of https://github.com/thoughtbot/shoulda-matchers
+e80e0e6fac7aa334fd44cbb377c18205b010e149		branch 'gh-pages' of https://github.com/thoughtbot/shoulda-matchers
+172c7b9fc98b339554b3165e6be9f12fa1b92b91		branch 'gh-pages-old' of https://github.com/thoughtbot/shoulda-matchers
+06e4192e856d185b31b808a37cdb224ef4f1a7a2		branch 'gjd-composite-refactor' of https://github.com/thoughtbot/shoulda-matchers
+9cd3f8502d9f44c2c5b2d075e21c5569308a4566		branch 'iainbeeston-fix_rspec_deprecation_warnings' of https://github.com/thoughtbot/shoulda-matchers
+8f6c9a815f2693b2e889e58b93d44b4c0a72c145		branch 'jd-add-4-1-beta' of https://github.com/thoughtbot/shoulda-matchers
+7beec816c789e67241cec197a89854489f6d669c		branch 'jd-rh-deprecate' of https://github.com/thoughtbot/shoulda-matchers
+4fc817f280728786104c9c4ea6807f65576033db		branch 'jf-bo-eager-load-matcher' of https://github.com/thoughtbot/shoulda-matchers
+4e6ba5614b8d642767a83feed96f1eb32c17ecf8		branch 'ma-delegate-method-for-private-method' of https://github.com/thoughtbot/shoulda-matchers
+0c07bfb039b0fe9f9863e885ee3885e48f3b39d9		branch 'master' of https://github.com/thoughtbot/shoulda-matchers
+3ad237b6fc6a70f0e2513fbf89076efb27b6f030		branch 'mms-jk-rails-5' of https://github.com/thoughtbot/shoulda-matchers
+4b160bd19ecca7f97d7ac22dccd5fde9b0da5a9f		branch 'rails-5' of https://github.com/thoughtbot/shoulda-matchers
+e5840ffe45b3bcd345fa442890aa624807eff504		branch 'rc-favicon' of https://github.com/thoughtbot/shoulda-matchers
+b3113117bd9bc445f297e172abebdaebb791147d		branch 'sd-cache-bundler-in-ci' of https://github.com/thoughtbot/shoulda-matchers
+194ff9626b36022f17513ecfd5b66f3a3302dc6c		branch 'site' of https://github.com/thoughtbot/shoulda-matchers
+f80480943e32e8e23feca33086102dd64bcfb58e		branch 'v1.5' of https://github.com/thoughtbot/shoulda-matchers
+5b951e7628ca9d3234501061f333d8c27b8d4c28		branch 'yabawock-uuid-column-type' of https://github.com/thoughtbot/shoulda-matchers
+7c408eff76802e3dc91590c381ae4e9a397fb2e1	not-for-merge	tag 'v1.0.0' of https://github.com/thoughtbot/shoulda-matchers
+e4901995c18d847d1abac964212f789af16c08ad	not-for-merge	tag 'v1.1.0' of https://github.com/thoughtbot/shoulda-matchers
+4be68a72affe810cc2f8ab076d9e62bd83effa85	not-for-merge	tag 'v1.2.0' of https://github.com/thoughtbot/shoulda-matchers
+70af03650713846efe5749ff455fbc52b792cca5	not-for-merge	tag 'v1.3.0' of https://github.com/thoughtbot/shoulda-matchers
+d0bb0d654351cad2fa80376feb015f2f479b98cd	not-for-merge	tag 'v1.4.0' of https://github.com/thoughtbot/shoulda-matchers
+30d3972c020d77958fa4216ededb4c5d3344a7da	not-for-merge	tag 'v1.4.1' of https://github.com/thoughtbot/shoulda-matchers
+3e449515ab6fcde6d99a3e429a6c789ad6d519f4	not-for-merge	tag 'v1.4.2' of https://github.com/thoughtbot/shoulda-matchers
+e5c42339defb979a110048ecbb15f37339facc99	not-for-merge	tag 'v1.5.0' of https://github.com/thoughtbot/shoulda-matchers
+c8cd424623021d29aa504ae88cd62179b94d248e	not-for-merge	tag 'v1.5.1' of https://github.com/thoughtbot/shoulda-matchers
+68c47f78ccb3264dc475ca712405e4e7bb1d597a	not-for-merge	tag 'v1.5.2' of https://github.com/thoughtbot/shoulda-matchers
+5fbb04f64ee94fa8b508accada49427679023adb	not-for-merge	tag 'v1.5.3' of https://github.com/thoughtbot/shoulda-matchers
+1f1cbef80e1922ed3acf5a7dae59e6b2a6e0b80f	not-for-merge	tag 'v1.5.4' of https://github.com/thoughtbot/shoulda-matchers
+fc850f168bbe1ac27f665766959906c8b6aec26e	not-for-merge	tag 'v1.5.5' of https://github.com/thoughtbot/shoulda-matchers
+dc0f53259771eda0aa2017a9e7c450df2ad91ff0	not-for-merge	tag 'v1.5.6' of https://github.com/thoughtbot/shoulda-matchers
+2483d5d5a4b4c7efc5f15d9055bac3d73957ec80	not-for-merge	tag 'v2.0.0' of https://github.com/thoughtbot/shoulda-matchers
+7014812e40116a7a1fac6aa3652b2010413aa954	not-for-merge	tag 'v2.1.0' of https://github.com/thoughtbot/shoulda-matchers
+edbacf1fb38a3dbdbf425109b6be95e8ef315686	not-for-merge	tag 'v2.2.0' of https://github.com/thoughtbot/shoulda-matchers
+75ae3b8affae233cb3a1551b7b770b08cd84ca01	not-for-merge	tag 'v2.3.0' of https://github.com/thoughtbot/shoulda-matchers
+9d8671dcc7b72290b9aaa3e3eae8f867aec50a9b	not-for-merge	tag 'v2.4.0' of https://github.com/thoughtbot/shoulda-matchers
+2bdd5a9bf1e640eb2ebe8da5e8c815597f01a41d	not-for-merge	tag 'v2.4.0.rc1' of https://github.com/thoughtbot/shoulda-matchers
+18db0f661064c9432a3c167e463bed46531fda66	not-for-merge	tag 'v2.5.0' of https://github.com/thoughtbot/shoulda-matchers
+33ceea5dc9b911aae3f049a7a313da6dcc27ab89	not-for-merge	tag 'v2.6.0' of https://github.com/thoughtbot/shoulda-matchers
+ba8fd70536bc18ef98e11b8829831f71d258974e	not-for-merge	tag 'v2.6.1' of https://github.com/thoughtbot/shoulda-matchers
+9a850f6765bbfa7768db1144229ec070af7c530a	not-for-merge	tag 'v2.6.1.rc1' of https://github.com/thoughtbot/shoulda-matchers
+d02160bcfc620f8f3aafb66cf4c41c1d68173f8a	not-for-merge	tag 'v2.6.1.rc2' of https://github.com/thoughtbot/shoulda-matchers
+5aaf9b91cee49c6b5fbcb752d601a9934e38a62e	not-for-merge	tag 'v2.6.2' of https://github.com/thoughtbot/shoulda-matchers
+122320be7d878fcdc02260f90f60b6964368e89a	not-for-merge	tag 'v2.7.0' of https://github.com/thoughtbot/shoulda-matchers
+13e137c3b602819f033a5ac7696b9d88b65c66c4	not-for-merge	tag 'v2.8.0' of https://github.com/thoughtbot/shoulda-matchers
+fd02af35d72eaed970d6bc2769e451a4d44fb3c2	not-for-merge	tag 'v2.8.0.rc1' of https://github.com/thoughtbot/shoulda-matchers
+bdaa53630b28764cd9fd49c657521c63d33a9c5d	not-for-merge	tag 'v2.8.0.rc2' of https://github.com/thoughtbot/shoulda-matchers
+4d6b0b67d68108f51eebe3194aa4ea7df05e330f	not-for-merge	tag 'v3.0.0' of https://github.com/thoughtbot/shoulda-matchers
+cff5d6d6fe9eaeeb192795759854156064237f9e	not-for-merge	tag 'v3.0.0.rc1' of https://github.com/thoughtbot/shoulda-matchers
+61cee6c3489c123fa109f02d59bded276556b64b	not-for-merge	tag 'v3.0.1' of https://github.com/thoughtbot/shoulda-matchers
+73977ac81d56d85b0753368d64f87ccc7f65ba18	not-for-merge	tag 'v3.1.0' of https://github.com/thoughtbot/shoulda-matchers
+82ad71014d90f75bb7fa0ce0be680cee164ff439	not-for-merge	tag 'v3.1.1' of https://github.com/thoughtbot/shoulda-matchers
+1201198f959809d7a82b51b66e878fb1d9b856e3	not-for-merge	tag 'v3.1.2' of https://github.com/thoughtbot/shoulda-matchers
