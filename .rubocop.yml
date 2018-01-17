@@ -1,14 +1,31 @@
- Style/FrozenStringLiteralComment:
-   Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
  
- Style/StringLiterals:
+Style/StringLiterals:
    EnforcedStyle: double_quotes
 
-AllCops:
-  Include:
-    - Rakefile
-    - config.ru
-    - lib/**/*.rake
-  Exclude:
-    - db/schema.rb
- 
+Layout/TrailingBlankLines:
+  Enabled: false
+
+Layout/ClassStructure:
+  Categories:
+    module_inclusion:
+      - include
+      - prepend
+      - extend
+  ExpectedOrder:
+      - module_inclusion
+      - constants
+      - public_class_methods
+      - initializer
+      - public_methods
+      - protected_methods
+      - private_methods
+
+Style/CollectionMethods:
+  PreferredMethods:
+    collect: "map"
+    collect!: "map!"
+    inject: "reduce"
+    detect: "find"
+    find_all: "select"
