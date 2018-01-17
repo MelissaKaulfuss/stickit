@@ -1,8 +1,22 @@
+Documentation:
+  Enabled: false
+
 Style/FrozenStringLiteralComment:
   Enabled: false
- 
+
 Style/StringLiterals:
    EnforcedStyle: double_quotes
+
+Style/MixinUsage:
+  Enabled: false
+
+Style/CollectionMethods:
+  PreferredMethods:
+    collect: "map"
+    collect!: "map!"
+    inject: "reduce"
+    detect: "find"
+    find_all: "select"
 
 Layout/TrailingBlankLines:
   Enabled: false
@@ -22,10 +36,8 @@ Layout/ClassStructure:
       - protected_methods
       - private_methods
 
-Style/CollectionMethods:
-  PreferredMethods:
-    collect: "map"
-    collect!: "map!"
-    inject: "reduce"
-    detect: "find"
-    find_all: "select"
+Metrics/MethodLength:
+  Max: 8
+
+Metrics/LineLength:
+  Enabled: false
