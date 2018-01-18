@@ -52,7 +52,6 @@ Metrics/MethodLength:
 
 Metrics/LineLength:
   Exclude:
-    - "spec/*.rb"
     - "config/*"
-    - "config/environments/*.rb" # theoretically this should deal
-    - "db/seeds.rb"
+    - "config/environments/*.rb"
+    - "spec/rails_helper.rb"
