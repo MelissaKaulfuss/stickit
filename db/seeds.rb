@@ -1,5 +1,4 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
+# Load file with rails db:seed cmd (or create alongside the db with db:setup.
 #
 # Examples:
 #
