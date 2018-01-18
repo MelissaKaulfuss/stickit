@@ -24,6 +24,14 @@ Style/CollectionMethods:
 Layout/TrailingBlankLines:
   Enabled: false
 
+Layout/TrailingWhitespace:
+  Exclude: 
+    - "config/environments/production.rb"
+    - "config/environments/developmemt.rb"
+
+Layout/AlignParameters:
+  Enabled: false
+
 Layout/ClassStructure:
   Categories:
     module_inclusion:
@@ -43,4 +51,8 @@ Metrics/MethodLength:
   Max: 8
 
 Metrics/LineLength:
-  Enabled: false
+  Exclude:
+    - "spec/*.rb"
+    - "config/*"
+    - "config/environments/*.rb" # theoretically this should deal
+    - "db/seeds.rb"
