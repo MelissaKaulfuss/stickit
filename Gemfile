@@ -13,7 +13,7 @@ group :development, :test do
   gem "factory_bot_rails"
   gem "hirb"
   gem "pry-byebug"
-  gem "rspec-rails"
+  gem "rspec-rails", "3.7.1"
 end
 
 group :development do
