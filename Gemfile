@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem "bcrypt"
 gem "jbuilder", "~> 2.5"
 gem "pg"
 gem "puma", "~> 3.7"
