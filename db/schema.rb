@@ -1,4 +1,4 @@
-ActiveRecord::Schema.define(version: 20180123050321) do
+ActiveRecord::Schema.define(version: 20180126111706) do
 
   enable_extension "plpgsql"
 
