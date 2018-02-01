@@ -66,7 +66,6 @@ SimpleForm.setup do |config|
 
   # Default class for buttons
   config.button_class = "btn"
-
   # Method used to tidy up errors. Specify any Rails Array method.
   # :first lists the first message for each field.
   # Use :to_sentence to list all errors for each field.
@@ -87,12 +86,6 @@ SimpleForm.setup do |config|
   # Series of attempts to detect a default value method for collection.
   # config.collection_value_methods = [ :id, :to_s ]
 
-  # You can wrap a collection of radio/check boxes in a pre-defined tag, 
-  # defaulting to none.
-  # config.collection_wrapper_tag = nil
-
-  # You can define the class to use on all collection wrappers. Defaulting to 
-  # none.
   # config.collection_wrapper_class = nil
 
   # You can wrap each item in a collection of radio/check boxes with a tag,
@@ -103,9 +96,6 @@ SimpleForm.setup do |config|
   # config.item_wrapper_class = nil
 
   # How the label text should be generated altogether with the required text.
-  # config.label_text = lambda do |label, required, explicit_label| 
-  #   "#{required} #{label}"
-  # end
 
   # You can define the class to use on all labels. Default is nil.
   # config.label_class = nil
@@ -120,12 +110,6 @@ SimpleForm.setup do |config|
   # Whether attributes are required by default (or not). Default is true.
   # config.required_by_default = true
 
-  # Tell browsers whether to use the native HTML5 validations (novalidate form 
-  # option). These validations are enabled in SimpleForm's internal config but 
-  # disabled by default in this configuration, which is recommended due to some 
-  # quirks from different browsers. To stop SimpleForm from generating the 
-  # novalidate option, enabling the HTML5 validations, change this 
-  # configuration to true.
   config.browser_validations = false
 
   # Collection of methods to detect if a file type was given.
@@ -171,5 +155,5 @@ SimpleForm.setup do |config|
   # config.include_default_input_wrapper_class = true
 
   # Defines which i18n scope will be used in Simple Form.
-  # config.i18n_scope = 'simple_form"
+  # config.i18n_scope = "simple_form"
 end
