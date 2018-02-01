@@ -4,7 +4,9 @@ gem "jbuilder", "~> 2.5"
 gem "pg"
 gem "puma", "~> 3.7"
 gem "rails", "~> 5.1.4"
+gem "responders"
 gem "sass-rails", "~> 5.0"
+gem "simple_form"
 gem "uglifier", ">= 1.3.0"
 
 group :development, :test do
@@ -13,7 +15,7 @@ group :development, :test do
   gem "factory_bot_rails"
   gem "hirb"
   gem "pry-byebug"
-  gem "rspec-rails"
+  gem "rspec-rails", "3.7.1"
 end
 
 group :development do
