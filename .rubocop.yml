@@ -13,6 +13,10 @@ Style/StringLiterals:
 Style/MixinUsage:
   Enabled: false
 
+Style/NumericLiterals:
+  Exclude:
+    - "db/schema.rb"
+
 Style/CollectionMethods:
   PreferredMethods:
     collect: "map"
@@ -21,6 +25,10 @@ Style/CollectionMethods:
     detect: "find"
     find_all: "select"
 
+Layout/AlignHash:
+  Exclude:
+    - "config/initializers/simple_form.rb"
+
 Layout/TrailingBlankLines:
   Enabled: false
 
@@ -28,6 +36,7 @@ Layout/TrailingWhitespace:
   Exclude: 
     - "config/environments/production.rb"
     - "config/environments/developmemt.rb"
+    - "config/initializers/simple_form.rb"
 
 Layout/AlignParameters:
   Enabled: false
