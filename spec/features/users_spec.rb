@@ -10,17 +10,4 @@ feature "User creates an account" do
 
     expect(page).to have_text("welcome to stickit felixpip!")
   end
-
-  feature "User sees their account details" do
-    scenario "when signing up with a valid username, email and password" do
-      
-      user = create(:user, username: "billybob", email: "well@howdydudey.com")
-
-      visit user_path(user)
-
-      expect(page).to have_text("welcome to stickit billybob!")
-    end
-  end  
 end
-
-
