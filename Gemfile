@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem "bcrypt"
 gem "jbuilder", "~> 2.5"
 gem "pg"
 gem "puma", "~> 3.7"
@@ -15,7 +16,7 @@ group :development, :test do
   gem "factory_bot_rails"
   gem "hirb"
   gem "pry-byebug"
-  gem "rspec-rails", "3.7.1"
+  gem "rspec-rails", "3.7.2"
 end
 
 group :development do
