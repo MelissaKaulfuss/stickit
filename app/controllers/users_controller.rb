@@ -4,12 +4,9 @@ class UsersController < ApplicationController
   end
 
   def create
-    @user = User.new(user_params)
-    if @user.save
-      redirect_to user_path(@user)
-    else
-      respond_with(@user)
-    end
+    @user = User.create(user_params)
+
+    respond_with(@user)
   end
 
   def show

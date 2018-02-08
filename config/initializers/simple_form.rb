@@ -66,7 +66,6 @@ SimpleForm.setup do |config|
 
   # Default class for buttons
   config.button_class = "btn"
-
   # Method used to tidy up errors. Specify any Rails Array method.
   # :first lists the first message for each field.
   # Use :to_sentence to list all errors for each field.
@@ -171,5 +170,5 @@ SimpleForm.setup do |config|
   # config.include_default_input_wrapper_class = true
 
   # Defines which i18n scope will be used in Simple Form.
-  # config.i18n_scope = 'simple_form"
+  # config.i18n_scope = "simple_form"
 end
