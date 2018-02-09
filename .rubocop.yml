@@ -32,6 +32,9 @@ Layout/AlignHash:
   Exclude:
     - "config/initializers/simple_form.rb"
 
+Layout/FirstParameterIndentation:
+  Enabled: false
+
 Layout/TrailingBlankLines:
   Enabled: false
 
