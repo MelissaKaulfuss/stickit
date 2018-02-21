@@ -13,3 +13,21 @@ en:
     submit:
       user:
         create: "Sign up"
+
+  sessions:
+    new:
+      email: "Email"
+      password: "Password"
+      submit: "Log in"
+      title: "Log in to upload to stickit"
+      flash:
+        alert: "You're logged in"
+        require_login: "You need to be logged in to access this."
+    create:
+      flash:
+        alert: "You're not logged in - try again!"
+        notice: "You're logged in."
+    destroy:
+      link: "Log out"
+      flash: 
+        notice: "You're logged out"

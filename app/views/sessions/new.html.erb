@@ -1,0 +1,6 @@
+<div><h1><%=t(".title")%></h1></div>
+<%= simple_form_for :session, url: sessions_path do |f| %>
+  <%= f.input :email %>
+  <%= f.input :password %>
+  <%= f.submit t(".submit") %>
+<% end %>
