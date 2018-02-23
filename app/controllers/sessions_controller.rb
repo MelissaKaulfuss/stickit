@@ -1,5 +1,4 @@
 class SessionsController < ApplicationController
-  
   before_action :user, only: [:create]
 
   def new
