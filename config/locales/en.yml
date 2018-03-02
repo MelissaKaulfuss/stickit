@@ -1,4 +1,11 @@
 en:
+  application:
+    authentication:
+      links:
+        login: "Log in"
+        signin: "Sign in"
+        logout: "Log out"
+
   users:
     defaults:
       username: "Username"
