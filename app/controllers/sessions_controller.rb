@@ -1,6 +1,4 @@
 class SessionsController < ApplicationController
-  before_action :user, only: [:create]
-
   def new
     if current_user
       redirect_to user_path(current_user), alert: t(".flash.alert")
