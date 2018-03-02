@@ -1,7 +1,7 @@
 <h1>t(".title")</h1>
-  <%= simple_form_for @user do |f| %>
-    <%= f.input :username %>
-    <%= f.input :email %>
-    <%= f.input :password %>
-    <%= f.button :submit %>
-  <% end %>
+<%= simple_form_for @user do |f| %>
+  <%= f.input :username %>
+  <%= f.input :email %>
+  <%= f.input :password %>
+  <%= f.submit I18n.t("application.users.new.submit") %>
+<% end %>
