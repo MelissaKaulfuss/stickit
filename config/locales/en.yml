@@ -1,9 +1,13 @@
 en:
+  authentication:
+    title: "Log in to upload your collection to stickit"
+    links:
+      login: "Log in"
+      logout: "Log out"
   users:
-    defaults:
-      username: "Username"
-      email: "Email"
-      password: "Password"
+    username: "Username"
+    email: "Email"
+    password: "Password"
     new:
       title: "create your account"
       create: "Sign up"
@@ -12,9 +16,8 @@ en:
 
   sessions:
     new:
-      email: "Email"
-      password: "Password"
-      login: "Log in"
+      # email: "Email"
+      # password: "Password"
       title: "Log in to upload to stickit"
       flash:
         alert: "You're logged in"
@@ -24,6 +27,5 @@ en:
         alert: "You're not logged in - try again!"
         notice: "You're logged in."
     destroy:
-      link: "Log out"
       flash: 
         notice: "You're logged out"

@@ -1,8 +1,8 @@
 <div class="login-links" >
   <% if current_user %>
-    <%= link_to t("sessions.destroy.link"), session_path, method: :delete %>
+    <%= link_to t("authentication.links.logout"), session_path, method: :delete %>
   <% else %>
-    <%= link_to t("sessions.new.login"), new_session_path %>
+    <%= link_to t("authentication.links.login"), new_session_path %>
     <%= link_to t("users.new.create"), new_user_path %>
   <% end %>
 </div>
