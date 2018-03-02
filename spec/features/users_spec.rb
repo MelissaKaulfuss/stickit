@@ -8,7 +8,7 @@ feature "User creates an account" do
       fill_in "user_username", with: "felixpip"
       fill_in "user_email", with: "example@eg.com"
       fill_in "user_password", with: "password"
-      click_on I18n.t("helpers.submit.user.create")
+      click_on I18n.t("users.new.create")
     end
 
     expect(page)

@@ -6,19 +6,15 @@ en:
       password: "Password"
     new:
       title: "create your account"
+      create: "Sign up"
     show:
       welcome: "welcome to stickit %{username}!"
-
-  helpers:
-    submit:
-      user:
-        create: "Sign up"
 
   sessions:
     new:
       email: "Email"
       password: "Password"
-      submit: "Log in"
+      login: "Log in"
       title: "Log in to upload to stickit"
       flash:
         alert: "You're logged in"

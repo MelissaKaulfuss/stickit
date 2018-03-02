@@ -6,7 +6,7 @@ module Features
       within "form" do
         fill_in "session_email", with: user.email
         fill_in "session_password", with: user.password
-        click_on I18n.t("sessions.new.submit")
+        click_on I18n.t("sessions.new.login")
       end
     end
   end

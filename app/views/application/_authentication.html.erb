@@ -2,7 +2,7 @@
   <% if current_user %>
     <%= link_to t("sessions.destroy.link"), session_path, method: :delete %>
   <% else %>
-    <%= link_to t("sessions.new.submit"), new_session_path %>
-    <%= link_to t("helpers.submit.user.create"), new_user_path %>
+    <%= link_to t("sessions.new.login"), new_session_path %>
+    <%= link_to t("users.new.create"), new_user_path %>
   <% end %>
 </div>
