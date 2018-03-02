@@ -24,12 +24,12 @@ en:
   sessions:
     new:
       email: "Email"
+      flash:
+        alert: "You're already logged in"
+        require_login: "You need to be logged in to access this."
       password: "Password"
       submit: "Log in"
       title: "Log in to upload to stickit"
-      flash:
-        alert: "You're logged in"
-        require_login: "You need to be logged in to access this."
     create:
       flash:
         alert: "You're not logged in - try again!"
