@@ -1,27 +1,28 @@
 en:
-  authentication:
-    title: "Log in to upload your collection to stickit"
-    links:
-      login: "Log in"
-      logout: "Log out"
+  application:
+    authentication:
+      title: "Log in to upload your collection to stickit"
+      links:
+        login: "Log in"
+        signin: "Sign in"
+        logout: "Log out"
   users:
     username: "Username"
     email: "Email"
     password: "Password"
     new:
       title: "create your account"
-      create: "Sign up"
+      submit: "Sign up"
     show:
       welcome: "welcome to stickit %{username}!"
-
   sessions:
     new:
-      # email: "Email"
-      # password: "Password"
-      title: "Log in to upload to stickit"
+      email: "Email"
       flash:
-        alert: "You're logged in"
+        alert: "You're already logged in"
         require_login: "You need to be logged in to access this."
+      password: "Password"
+      submit: "Log in"
     create:
       flash:
         alert: "You're not logged in - try again!"
