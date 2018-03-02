@@ -35,6 +35,5 @@ en:
         alert: "You're not logged in - try again!"
         notice: "You're logged in."
     destroy:
-      link: "Log out"
       flash: 
         notice: "You're logged out"
