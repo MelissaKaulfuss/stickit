@@ -8,7 +8,6 @@ module Features
         fill_in "session_password", with: user.password
         click_on I18n.t("sessions.new.submit")
       end
-
     end
   end
 end
