@@ -1,6 +1,5 @@
 module Features
   module AuthenticationHelpers
-
     def login_as(user)
       visit new_session_path
       within "form" do

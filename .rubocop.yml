@@ -25,6 +25,13 @@ Style/CollectionMethods:
     detect: "find"
     find_all: "select"
 
+Style/IfUnlessModifier:
+  Exclude: 
+    - "app/controllers/application_controller.rb"
+
+Style/GuardClause:
+  Enabled: false
+
 Style/SymbolArray:
   Enabled: false
 
@@ -62,6 +69,10 @@ Layout/ClassStructure:
       - protected_methods
       - private_methods
 
+Metrics/AbcSize:
+  Exclude: 
+    - "app/controllers/sessions_controller.rb"
+    
 Metrics/MethodLength:
   Max: 8
 

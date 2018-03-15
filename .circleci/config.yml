@@ -1,0 +1,40 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/stickit
+    docker:
+      - image: circleci/ruby:2.4.1
+        environment:
+          PGHOST: localhost
+          PGUSER: stickit
+          RAILS_ENV: test
+      - image: postgres:10.1
+        environment: 
+          POSTGRES_USER: stickit
+          POSTGRES_DB: stickit_test
+          POSTGRES_PASSWORD: ""
+
+    steps:
+      - run: sudo apt-get
+
+      - checkout
+
+      - type: cache-restore
+        name: Restore bundle cache
+        keys:
+          - stickit-gems-{{ checksum "Gemfile.lock" }}
+          - stickit-gems-
+
+      - run: bundle install --path vendor/bundle
+
+      - type: cache-save
+        name: Store bundle cache
+        key: stickit-gems-{{ checksum "Gemfile.lock" }}
+        paths:
+          - ./vendor/bundle
+
+    # - run: cp .sample.env .env
+      - run: bundle exec rake db:setup
+
+      - run: bundle exec rubocop
+      - run: bundle exec rspec
