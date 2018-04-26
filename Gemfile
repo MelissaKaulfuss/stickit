@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "bcrypt"
 gem "jbuilder", "~> 2.5"
+gem "materialize-sass", "~> 1.0.0.alpha4"
 gem "pg", "~> 0.18"
 gem "puma", "~> 3.7"
 gem "rails", "~> 5.1.4"
